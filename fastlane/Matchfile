@@ -1,0 +1,9 @@
+# fastlane/Matchfile
+
+git_url(ENV["MATCH_URL"])
+git_basic_authorization(ENV["GIT_TOKEN"])
+username(ENV["APPLE_CONNECT_EMAIL"])
+type("appstore")
+
+app_identifier(ENV["IOS_APP_ID"])
+

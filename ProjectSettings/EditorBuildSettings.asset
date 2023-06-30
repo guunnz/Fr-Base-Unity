@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Usercentrics/Usercentrics/Demo/UsercentricsLoad.unity
+    guid: 365012a1729d949dfab765b2fd6c1de1
+  - enabled: 1
+    path: Assets/MainScene.unity
+    guid: 503fe949235f12f44a943530909ccf4f
+  - enabled: 1
+    path: Assets/ConnectionError.unity
+    guid: 069ca5b6945a95647959f8747a6faca6
+  - enabled: 1
+    path: Assets/Onboarding.unity
+    guid: 9fe025139d71b4d6a8a5bf70bb4ab1f2
+  - enabled: 1
+    path: Assets/UpdateBuildInStore.unity
+    guid: 6af7ab72e8270460ab79be784fb8a9e6
+  - enabled: 1
+    path: Assets/AuthFlow.unity
+    guid: 045fee0f3b26b4309ac6e6157db82aac
+  - enabled: 1
+    path: Assets/RoomScene.unity
+    guid: 1a5572d9284e949e7b690a10935ef3de
+  - enabled: 1
+    path: Assets/GoToRoomScene.unity
+    guid: 824b41640496b4d6b85645cbc37e3c00
+  - enabled: 1
+    path: Assets/AvatarCustomization.unity
+    guid: 294585e83b75b4626b80db7a6013fa8b
+  - enabled: 1
+    path: Assets/Minigames.unity
+    guid: bd6ed5824be1f434b9440a3988943537
+  - enabled: 1
+    path: Assets/BannedUser.unity
+    guid: c7af1ec0b42764ce99df2dd2fd0bc66d
+  - enabled: 1
+    path: Assets/NewAuthFlow.unity
+    guid: 0ac24f7f5b1b54910b82c805a0d547ea
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 4c4af7438c0b3436bb44e4c0efb7d858,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fab0b4378805b4c0dafdd1997c00d621,
+      type: 2}

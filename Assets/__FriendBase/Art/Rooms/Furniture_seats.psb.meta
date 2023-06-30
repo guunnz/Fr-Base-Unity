@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: fff539f8a6e27a345adc067952ea2aa8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: sofa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 618
+      width: 966
+      height: 622
+    spriteID: 52b9251c8a3e733438c0af6c7ad035e3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -733, y: 39}
+  - name: sofa-shadow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1199
+      y: 4
+      width: 783
+      height: 316
+    spriteID: 0a50d413387bae44a9f332755b2ebbda
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 444, y: -553}
+  - name: sofa-mask
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 978
+      y: 618
+      width: 952
+      height: 351
+    spriteID: 849365c1cd212d74fb669f19ae39cb68
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 315, y: 106}
+  - name: couch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1248
+      width: 542
+      height: 670
+    spriteID: d08c72b37e073f24c96b2d024a0cb55e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -729, y: 760}
+  - name: couch-shadow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1566
+      y: 977
+      width: 475
+      height: 230
+    spriteID: 8503bbf16f5dbea4fba7e0c479d87703
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 766, y: 406}
+  - name: couch-mask
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1199
+      y: 328
+      width: 679
+      height: 261
+    spriteID: 97de528ba5c0d1b43b829d65e7c14765
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 490, y: -223}
+  - name: chair
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 554
+      y: 1248
+      width: 340
+      height: 466
+    spriteID: 4f3379b9f23bfee4f8819f8a0a2a82a3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -303, y: 646}
+  - name: chair-mask
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 978
+      y: 977
+      width: 580
+      height: 200
+    spriteID: 5f2273718321ac54d8c4da22fe12be38
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 223, y: 415}
+  - name: chair-shadow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1187
+      height: 606
+    spriteID: 3eb2aee060201254f81c7213be7d3b2b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -857, y: -562}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2048, y: 2048}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Big couch
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 112
+    mosaicPosition: {x: 0, y: 0}
+  - name: sofa
+    spriteName: sofa
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 52b9251c8a3e733438c0af6c7ad035e3
+    layerID: 193
+    mosaicPosition: {x: 4, y: 618}
+  - name: sofa-shadow
+    spriteName: sofa-shadow
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0a50d413387bae44a9f332755b2ebbda
+    layerID: 277
+    mosaicPosition: {x: 1199, y: 4}
+  - name: sofa-mask
+    spriteName: sofa-mask
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 849365c1cd212d74fb669f19ae39cb68
+    layerID: 280
+    mosaicPosition: {x: 978, y: 618}
+  - name: Couches
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 94
+    mosaicPosition: {x: 0, y: 0}
+  - name: couch
+    spriteName: couch
+    isGroup: 0
+    parentIndex: 4
+    spriteID: d08c72b37e073f24c96b2d024a0cb55e
+    layerID: 234
+    mosaicPosition: {x: 4, y: 1248}
+  - name: couch-shadow
+    spriteName: couch-shadow
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 8503bbf16f5dbea4fba7e0c479d87703
+    layerID: 276
+    mosaicPosition: {x: 1566, y: 977}
+  - name: couch-mask
+    spriteName: couch-mask
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 97de528ba5c0d1b43b829d65e7c14765
+    layerID: 281
+    mosaicPosition: {x: 1199, y: 328}
+  - name: Chairs
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+  - name: chair
+    spriteName: chair
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 4f3379b9f23bfee4f8819f8a0a2a82a3
+    layerID: 69
+    mosaicPosition: {x: 554, y: 1248}
+  - name: chair-mask
+    spriteName: chair-mask
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 5f2273718321ac54d8c4da22fe12be38
+    layerID: 282
+    mosaicPosition: {x: 978, y: 977}
+  - name: chair-shadow
+    spriteName: chair-shadow
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 3eb2aee060201254f81c7213be7d3b2b
+    layerID: 275
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Furniture_seats Texture
+  prefabAssetName: Furniture_seats Prefab
+  spriteLibAssetName: Furniture_seats Sprite Lib
+  secondarySpriteTextures: []

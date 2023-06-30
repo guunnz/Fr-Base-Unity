@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AvatarParts
+  m_EditorClassIdentifier: 
+  m_GroupName: AvatarParts
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b1a5a3f60c0e14072acf95c8ee6f109a
+  m_SerializeEntries:
+  - m_GUID: a99ca15a5e0954895ab82a11068a51d2
+    m_Address: Accessories
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b61065779d8a4bcf950dff19daeee17
+    m_Address: Avatar-body
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dff7a2520cb4c41d6893939aef32e697
+    m_Address: Avatar-ear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85601fafb38134deab50f38c9de5f0b6
+    m_Address: Avatar-eyebrows
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f194000599d92485aa76d2b143bd925f
+    m_Address: Avatar-eyes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77f39e7e4031f4c05b8be3a5aa4b6fae
+    m_Address: Avatar-faceshape
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c37b9c6ff1e0b4ccdaf2afa8ef38da27
+    m_Address: Avatar-hairstyles
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58cfa8c47e7ee44f1a8fa9bf701f537c
+    m_Address: Avatar-mouth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcfdebe2a894249f493985333ae72376
+    m_Address: Avatar-nose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29257962dca0c460cbd58663217b2980
+    m_Address: Bottoms
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 093e3ce6aaa4248b98fad7497e31aac5
+    m_Address: Dress
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3def9bd6649c446e3902aefe46aca450
+    m_Address: Glasses
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a21bf906dd75b40cf83e0bc964a8fcb4
+    m_Address: Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38481c6edb0b541fb8f853caa564264b
+    m_Address: Tops
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 44d714fc1267d440b9e7851ba39a25fb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9954e2ca5110b4de5b6578dc4c0f9d01, type: 2}
+    - {fileID: 11400000, guid: ae4769760c2c74bafb35133b62364c07, type: 2}

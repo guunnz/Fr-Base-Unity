@@ -1,0 +1,913 @@
+fileFormatVersion: 2
+guid: 5562f932c6b144504902064e1374602c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Mouth_Fangs_NC
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1033
+      y: 2206
+      width: 270
+      height: 87
+    spriteID: 80543cce2d86b41879670171a89f0e38
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 913, y: 2003}
+  - name: Mouth_Fangs
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1033
+      y: 2081
+      width: 270
+      height: 117
+    spriteID: 53efc6fb88e2043849ac58eb0ecaee15
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 913, y: 1899}
+  - name: Glasses_Mummy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1478
+      y: 841
+      width: 492
+      height: 238
+    spriteID: 1316dbd71c79148f4843c417f331e0a1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1458, y: 689}
+  - name: Shoes_Mummy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1033
+      y: 1784
+      width: 411
+      height: 289
+    spriteID: 684f167eb8d6e431da1fc0ee404cf200
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 957, y: 1682}
+  - name: Top_Mummy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 3022
+      width: 419
+      height: 505
+    spriteID: 8c218c6c2dde54b2faacce999e9c1f58
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 461, y: 3018}
+  - name: Top_Mummy_B
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 3535
+      width: 419
+      height: 505
+    spriteID: 3cd2c9d826377450783ea33f9b09f653
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 461, y: 3531}
+  - name: Pants_Mummy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 462
+      width: 456
+      height: 495
+    spriteID: 4551e9ecbc2714a999a61cb0ba705ccd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 483, y: 452}
+  - name: Shoes_Witch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1033
+      y: 1478
+      width: 424
+      height: 298
+    spriteID: c9fa9b298ea3f4b9787dfb2b9fb062ed
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 963, y: 1371}
+  - name: Dress_WItch_B
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1033
+      y: 472
+      width: 382
+      height: 495
+    spriteID: d589996ff82994463bfae3ad2d689b56
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 956, y: 463}
+  - name: Dress_WItch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1033
+      y: 975
+      width: 382
+      height: 495
+    spriteID: 2681ef7a5723b4717a139754971d3f55
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 956, y: 966}
+  - name: Glasses_WItchHatNose
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2060
+      width: 450
+      height: 510
+    spriteID: ba64326edaf7b48bf835be1ac7d6887a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -27, y: 2059}
+  - name: Glasses_WItchHat
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 4
+      width: 512
+      height: 450
+    spriteID: 21a480c0b63384dedb3cc30eca1c041b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 513, y: -27}
+  - name: Accessory_VampireCape_Red
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 522
+      width: 501
+      height: 501
+    spriteID: dd5d7fca2ebd14f8eba54764806f4cdb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -7, y: 517}
+  - name: Accessory_VampireCape_Purple
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1031
+      width: 501
+      height: 501
+    spriteID: 6cd8d604b6dcf4f62920fe57f116bbde
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -7, y: 1026}
+  - name: Accessory_VampireCape_BlueWine
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 501
+      height: 510
+    spriteID: a03c32afb80d54b4aa647d533696aedf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -7, y: 3}
+  - name: Glasses_PumpkinMask1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1033
+      y: 4
+      width: 437
+      height: 460
+    spriteID: f81350f07f48b43edbfa649695dbe717
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 996, y: -22}
+  - name: Glasses_PumpkinMask2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3617
+      width: 438
+      height: 460
+    spriteID: 0529df21d284541e8b8838392fdd7fb1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -33, y: 3591}
+  - name: Glasses_PumpkinMask3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 965
+      width: 437
+      height: 510
+    spriteID: 6352d04a441364edf8e85d303b57e88e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 476, y: 964}
+  - name: Glasses_ZombieMask1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 1483
+      width: 431
+      height: 511
+    spriteID: 7f4281f835e9a49478f89a1f93a8f916
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 473, y: 1482}
+  - name: Glasses_ZombieMask2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 2002
+      width: 431
+      height: 509
+    spriteID: b048d0fcc8855410ba250560ea1309c7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 485, y: 2002}
+  - name: Glasses_ZombieMask3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 513
+      y: 2519
+      width: 430
+      height: 495
+    spriteID: 70e0570aa8af043f18ce6a3220fad06e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 485, y: 2510}
+  - name: Glasses_CatrinaMask1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3098
+      width: 442
+      height: 511
+    spriteID: ea82002987d74471790d04058f5ab7c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -20, y: 3098}
+  - name: Glasses_CatrinaMask2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2578
+      width: 444
+      height: 512
+    spriteID: 47d5cc534d95744febb8eff577dcff89
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -56, y: 2578}
+  - name: Glasses_CatrinaMask3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1540
+      width: 481
+      height: 512
+    spriteID: 10dae0d17d34c4924b62e552596d1938
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -11, y: 1540}
+  - name: Accessory_DevilWings_Red
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1478
+      y: 4
+      width: 511
+      height: 271
+    spriteID: f924b06f1055c4af8ad074e2b8a04ee8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1478, y: -117}
+  - name: Accessory_DevilWings_Blue
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1478
+      y: 283
+      width: 511
+      height: 271
+    spriteID: 9981abb49a9e547b28958aca1045603b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1478, y: 162}
+  - name: Accessory_DevilWings_Purple
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1478
+      y: 562
+      width: 511
+      height: 271
+    spriteID: 609c2b9ec7af84dd1b3c67b1d5d44b2c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1478, y: 441}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 512, y: 512}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Glasses_Mummy
+    spriteName: Glasses_Mummy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1316dbd71c79148f4843c417f331e0a1
+    layerID: 221
+    mosaicPosition: {x: 1478, y: 841}
+  - name: Shoes_Mummy
+    spriteName: Shoes_Mummy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 684f167eb8d6e431da1fc0ee404cf200
+    layerID: 213
+    mosaicPosition: {x: 1033, y: 1784}
+  - name: Top_Mummy
+    spriteName: Top_Mummy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8c218c6c2dde54b2faacce999e9c1f58
+    layerID: 217
+    mosaicPosition: {x: 513, y: 3022}
+  - name: Top_Mummy_B
+    spriteName: Top_Mummy_B
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3cd2c9d826377450783ea33f9b09f653
+    layerID: 216
+    mosaicPosition: {x: 513, y: 3535}
+  - name: Pants_Mummy
+    spriteName: Pants_Mummy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4551e9ecbc2714a999a61cb0ba705ccd
+    layerID: 218
+    mosaicPosition: {x: 513, y: 462}
+  - name: Shoes_Witch
+    spriteName: Shoes_Witch
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c9fa9b298ea3f4b9787dfb2b9fb062ed
+    layerID: 208
+    mosaicPosition: {x: 1033, y: 1478}
+  - name: Dress_WItch_B
+    spriteName: Dress_WItch_B
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d589996ff82994463bfae3ad2d689b56
+    layerID: 225
+    mosaicPosition: {x: 1033, y: 472}
+  - name: Dress_WItch
+    spriteName: Dress_WItch
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2681ef7a5723b4717a139754971d3f55
+    layerID: 207
+    mosaicPosition: {x: 1033, y: 975}
+  - name: Glasses_WItchHatNose
+    spriteName: Glasses_WItchHatNose
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ba64326edaf7b48bf835be1ac7d6887a
+    layerID: 203
+    mosaicPosition: {x: 4, y: 2060}
+  - name: Glasses_WItchHat
+    spriteName: Glasses_WItchHat
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 21a480c0b63384dedb3cc30eca1c041b
+    layerID: 202
+    mosaicPosition: {x: 513, y: 4}
+  - name: Accessory_VampireCape_Red
+    spriteName: Accessory_VampireCape_Red
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dd5d7fca2ebd14f8eba54764806f4cdb
+    layerID: 191
+    mosaicPosition: {x: 4, y: 522}
+  - name: Accessory_VampireCape_Purple
+    spriteName: Accessory_VampireCape_Purple
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6cd8d604b6dcf4f62920fe57f116bbde
+    layerID: 187
+    mosaicPosition: {x: 4, y: 1031}
+  - name: Accessory_VampireCape_BlueWine
+    spriteName: Accessory_VampireCape_BlueWine
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a03c32afb80d54b4aa647d533696aedf
+    layerID: 183
+    mosaicPosition: {x: 4, y: 4}
+  - name: Glasses_PumpkinMask1
+    spriteName: Glasses_PumpkinMask1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f81350f07f48b43edbfa649695dbe717
+    layerID: 179
+    mosaicPosition: {x: 1033, y: 4}
+  - name: Glasses_PumpkinMask2
+    spriteName: Glasses_PumpkinMask2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0529df21d284541e8b8838392fdd7fb1
+    layerID: 178
+    mosaicPosition: {x: 4, y: 3617}
+  - name: Glasses_PumpkinMask3
+    spriteName: Glasses_PumpkinMask3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6352d04a441364edf8e85d303b57e88e
+    layerID: 177
+    mosaicPosition: {x: 513, y: 965}
+  - name: Glasses_ZombieMask1
+    spriteName: Glasses_ZombieMask1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7f4281f835e9a49478f89a1f93a8f916
+    layerID: 174
+    mosaicPosition: {x: 513, y: 1483}
+  - name: Glasses_ZombieMask2
+    spriteName: Glasses_ZombieMask2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b048d0fcc8855410ba250560ea1309c7
+    layerID: 173
+    mosaicPosition: {x: 513, y: 2002}
+  - name: Glasses_ZombieMask3
+    spriteName: Glasses_ZombieMask3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 70e0570aa8af043f18ce6a3220fad06e
+    layerID: 172
+    mosaicPosition: {x: 513, y: 2519}
+  - name: Glasses_CatrinaMask1
+    spriteName: Glasses_CatrinaMask1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ea82002987d74471790d04058f5ab7c1
+    layerID: 169
+    mosaicPosition: {x: 4, y: 3098}
+  - name: Glasses_CatrinaMask2
+    spriteName: Glasses_CatrinaMask2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 47d5cc534d95744febb8eff577dcff89
+    layerID: 168
+    mosaicPosition: {x: 4, y: 2578}
+  - name: Glasses_CatrinaMask3
+    spriteName: Glasses_CatrinaMask3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 10dae0d17d34c4924b62e552596d1938
+    layerID: 167
+    mosaicPosition: {x: 4, y: 1540}
+  - name: Accessory_DevilWings_Red
+    spriteName: Accessory_DevilWings_Red
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f924b06f1055c4af8ad074e2b8a04ee8
+    layerID: 164
+    mosaicPosition: {x: 1478, y: 4}
+  - name: Accessory_DevilWings_Blue
+    spriteName: Accessory_DevilWings_Blue
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9981abb49a9e547b28958aca1045603b
+    layerID: 163
+    mosaicPosition: {x: 1478, y: 283}
+  - name: Accessory_DevilWings_Purple
+    spriteName: Accessory_DevilWings_Purple
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 609c2b9ec7af84dd1b3c67b1d5d44b2c
+    layerID: 162
+    mosaicPosition: {x: 1478, y: 562}
+  - name: Mouth
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 200
+    mosaicPosition: {x: 0, y: 0}
+  - name: Mouth_Fangs_NC
+    spriteName: Mouth_Fangs_NC
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 80543cce2d86b41879670171a89f0e38
+    layerID: 232
+    mosaicPosition: {x: 1033, y: 2206}
+  - name: Mouth_Fangs
+    spriteName: Mouth_Fangs
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 53efc6fb88e2043849ac58eb0ecaee15
+    layerID: 231
+    mosaicPosition: {x: 1033, y: 2081}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Halloween2022 UI Texture
+  prefabAssetName: Halloween2022 UI Prefab
+  spriteLibAssetName: Halloween2022 UI Sprite Lib
+  secondarySpriteTextures: []

@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: dc34858747a8e4a63b5234c59367e6c7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: shorts_black
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 2342
+      width: 419
+      height: 311
+    spriteID: 0a74c7f45a29e4e65aa779bcc721d658
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 778, y: 2242}
+  - name: shorts_brown
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 2661
+      width: 419
+      height: 311
+    spriteID: 42278bc654f3446b3b8a5301ce2904a5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 778, y: 2561}
+  - name: shorts_olive
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 2980
+      width: 419
+      height: 311
+    spriteID: 2169dcc5c79da4884b9f0baf9214898c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 778, y: 2880}
+  - name: shorts_earth
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 3299
+      width: 419
+      height: 311
+    spriteID: 9a061989a60d5454ba813693cadbb5c8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 778, y: 3199}
+  - name: shorts_pink
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 3618
+      width: 419
+      height: 311
+    spriteID: bf79b515a51754b668a896ef21d12f74
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 778, y: 3518}
+  - name: shorts_jeans
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1344
+      y: 4
+      width: 419
+      height: 311
+    spriteID: 3e5ff81515bb14bc090706940e5f6d24
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1297, y: -96}
+  - name: shorts_white
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1344
+      y: 323
+      width: 419
+      height: 311
+    spriteID: 5df0aa03e2dda49d4ba519a450057267
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1297, y: 223}
+  - name: tennisshirt_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 4
+      width: 511
+      height: 326
+    spriteID: 2eb02d2bace4c4971bcf51cbb79318b1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 824, y: -89}
+  - name: tennisshirt_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 2008
+      width: 510
+      height: 326
+    spriteID: f2da81833f85a4d5f8596d3ed8fdc85c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 824, y: 1915}
+  - name: tennisshirt_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 338
+      width: 511
+      height: 326
+    spriteID: 527108fa77ade4917a5fac9be917374e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 824, y: 245}
+  - name: tennisshirt_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 672
+      width: 511
+      height: 326
+    spriteID: 113de73444cdc42ffac18ddf0a495aad
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 824, y: 579}
+  - name: tennisshirt_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 1006
+      width: 511
+      height: 326
+    spriteID: a60e9a272f91e4e999a4fe30a99ed13c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 824, y: 913}
+  - name: tennisshirt_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 1340
+      width: 511
+      height: 326
+    spriteID: 8072b598d72714fe3b97eb5cff7b7418
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 824, y: 1247}
+  - name: tennisshirt_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 825
+      y: 1674
+      width: 511
+      height: 326
+    spriteID: a5a2e410159db40c9b3ff787567e806a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 824, y: 1581}
+  - name: pants_white
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 394
+      height: 512
+    spriteID: 003dd2a5d7a6e4cf8a4cbd36afcbc06c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -55, y: 4}
+  - name: pants_blue
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 524
+      width: 394
+      height: 512
+    spriteID: 1de389f9630ae4f368ece086fbb3450d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -55, y: 524}
+  - name: pants_retro
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1044
+      width: 394
+      height: 512
+    spriteID: 7e288d06f38ce421b9f8541637a6b9a4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -55, y: 1044}
+  - name: pants_earth
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1564
+      width: 394
+      height: 512
+    spriteID: ba0b8f6b8652147ad8cb123a2d9f964d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -55, y: 1564}
+  - name: pants_olive
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2084
+      width: 394
+      height: 512
+    spriteID: 147b50dacc92140a48fe0c55e4a58594
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -55, y: 2084}
+  - name: pants_brown
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2604
+      width: 394
+      height: 512
+    spriteID: 19ba8902b2b764a769737a060ad3a38d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -55, y: 2604}
+  - name: pants_black
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3124
+      width: 394
+      height: 512
+    spriteID: 767904fac3c8749c9829543c83bbde43
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -55, y: 3124}
+  - name: elfpants
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 4
+      width: 411
+      height: 489
+    spriteID: 5b7e8f2ac61a2924b828b9078dbe924a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 355, y: 4}
+  - name: santapants_red
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 501
+      width: 411
+      height: 458
+    spriteID: 776ede55c4c38854b83c2e166f42d445
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 351, y: 485}
+  - name: santapants_green
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 967
+      width: 411
+      height: 458
+    spriteID: 38c9589ed444f73458931252a4909e7a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 351, y: 951}
+  - name: santapants_blue
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 1433
+      width: 411
+      height: 458
+    spriteID: 40060cd1ed6f23540aef4626c13a4331
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 351, y: 1417}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 512, y: 512}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: xmas2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 808
+    mosaicPosition: {x: 0, y: 0}
+  - name: elfpants
+    spriteName: elfpants
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5b7e8f2ac61a2924b828b9078dbe924a
+    layerID: 807
+    mosaicPosition: {x: 406, y: 4}
+  - name: santapants_red
+    spriteName: santapants_red
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 776ede55c4c38854b83c2e166f42d445
+    layerID: 802
+    mosaicPosition: {x: 406, y: 501}
+  - name: santapants_green
+    spriteName: santapants_green
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 38c9589ed444f73458931252a4909e7a
+    layerID: 799
+    mosaicPosition: {x: 406, y: 967}
+  - name: santapants_blue
+    spriteName: santapants_blue
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 40060cd1ed6f23540aef4626c13a4331
+    layerID: 796
+    mosaicPosition: {x: 406, y: 1433}
+  - name: shorts
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 794
+    mosaicPosition: {x: 0, y: 0}
+  - name: shorts_black
+    spriteName: shorts_black
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 0a74c7f45a29e4e65aa779bcc721d658
+    layerID: 793
+    mosaicPosition: {x: 825, y: 2342}
+  - name: shorts_brown
+    spriteName: shorts_brown
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 42278bc654f3446b3b8a5301ce2904a5
+    layerID: 792
+    mosaicPosition: {x: 825, y: 2661}
+  - name: shorts_olive
+    spriteName: shorts_olive
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 2169dcc5c79da4884b9f0baf9214898c
+    layerID: 791
+    mosaicPosition: {x: 825, y: 2980}
+  - name: shorts_earth
+    spriteName: shorts_earth
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 9a061989a60d5454ba813693cadbb5c8
+    layerID: 790
+    mosaicPosition: {x: 825, y: 3299}
+  - name: shorts_pink
+    spriteName: shorts_pink
+    isGroup: 0
+    parentIndex: 5
+    spriteID: bf79b515a51754b668a896ef21d12f74
+    layerID: 789
+    mosaicPosition: {x: 825, y: 3618}
+  - name: shorts_jeans
+    spriteName: shorts_jeans
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 3e5ff81515bb14bc090706940e5f6d24
+    layerID: 788
+    mosaicPosition: {x: 1344, y: 4}
+  - name: shorts_white
+    spriteName: shorts_white
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 5df0aa03e2dda49d4ba519a450057267
+    layerID: 787
+    mosaicPosition: {x: 1344, y: 323}
+  - name: skirts
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 785
+    mosaicPosition: {x: 0, y: 0}
+  - name: tennisshirt_1
+    spriteName: tennisshirt_1
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 2eb02d2bace4c4971bcf51cbb79318b1
+    layerID: 784
+    mosaicPosition: {x: 825, y: 4}
+  - name: tennisshirt_2
+    spriteName: tennisshirt_2
+    isGroup: 0
+    parentIndex: 13
+    spriteID: f2da81833f85a4d5f8596d3ed8fdc85c
+    layerID: 783
+    mosaicPosition: {x: 825, y: 2008}
+  - name: tennisshirt_3
+    spriteName: tennisshirt_3
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 527108fa77ade4917a5fac9be917374e
+    layerID: 782
+    mosaicPosition: {x: 825, y: 338}
+  - name: tennisshirt_4
+    spriteName: tennisshirt_4
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 113de73444cdc42ffac18ddf0a495aad
+    layerID: 781
+    mosaicPosition: {x: 825, y: 672}
+  - name: tennisshirt_5
+    spriteName: tennisshirt_5
+    isGroup: 0
+    parentIndex: 13
+    spriteID: a60e9a272f91e4e999a4fe30a99ed13c
+    layerID: 780
+    mosaicPosition: {x: 825, y: 1006}
+  - name: tennisshirt_6
+    spriteName: tennisshirt_6
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 8072b598d72714fe3b97eb5cff7b7418
+    layerID: 779
+    mosaicPosition: {x: 825, y: 1340}
+  - name: tennisshirt_7
+    spriteName: tennisshirt_7
+    isGroup: 0
+    parentIndex: 13
+    spriteID: a5a2e410159db40c9b3ff787567e806a
+    layerID: 778
+    mosaicPosition: {x: 825, y: 1674}
+  - name: pants
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 776
+    mosaicPosition: {x: 0, y: 0}
+  - name: pants_white
+    spriteName: pants_white
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 003dd2a5d7a6e4cf8a4cbd36afcbc06c
+    layerID: 775
+    mosaicPosition: {x: 4, y: 4}
+  - name: pants_blue
+    spriteName: pants_blue
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 1de389f9630ae4f368ece086fbb3450d
+    layerID: 774
+    mosaicPosition: {x: 4, y: 524}
+  - name: pants_retro
+    spriteName: pants_retro
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 7e288d06f38ce421b9f8541637a6b9a4
+    layerID: 773
+    mosaicPosition: {x: 4, y: 1044}
+  - name: pants_earth
+    spriteName: pants_earth
+    isGroup: 0
+    parentIndex: 21
+    spriteID: ba0b8f6b8652147ad8cb123a2d9f964d
+    layerID: 772
+    mosaicPosition: {x: 4, y: 1564}
+  - name: pants_olive
+    spriteName: pants_olive
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 147b50dacc92140a48fe0c55e4a58594
+    layerID: 771
+    mosaicPosition: {x: 4, y: 2084}
+  - name: pants_brown
+    spriteName: pants_brown
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 19ba8902b2b764a769737a060ad3a38d
+    layerID: 770
+    mosaicPosition: {x: 4, y: 2604}
+  - name: pants_black
+    spriteName: pants_black
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 767904fac3c8749c9829543c83bbde43
+    layerID: 769
+    mosaicPosition: {x: 4, y: 3124}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Bottoms_UI Texture
+  prefabAssetName: Bottoms_UI Prefab
+  spriteLibAssetName: Bottoms_UI Sprite Lib
+  secondarySpriteTextures: []

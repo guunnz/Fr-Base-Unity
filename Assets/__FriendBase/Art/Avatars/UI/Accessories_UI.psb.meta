@@ -1,0 +1,1645 @@
+fileFormatVersion: 2
+guid: 83286f3e9a1bb4375abdb03acb6395c7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Laptop
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 522
+      width: 489
+      height: 512
+    spriteID: 80815e9ac7900456ca3bd1187864e914
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -8, y: 522}
+  - name: Mug
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3636
+      y: 4
+      width: 413
+      height: 383
+    spriteID: 187f7f05f9255402c9992683bbfd1ae7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3586, y: -61}
+  - name: Thermos
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1508
+      width: 445
+      height: 512
+    spriteID: 9c5047ce821714b5087dfa5ec878eb25
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -30, y: 1508}
+  - name: Bouquet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2454
+      y: 1508
+      width: 410
+      height: 511
+    spriteID: 8658b23fa38f44a82af24c9139548d80
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2403, y: 1507}
+  - name: TeddyBear
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 457
+      y: 1508
+      width: 432
+      height: 512
+    spriteID: 15a55bdf0c5fd47109b75b2e10261afa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 417, y: 1508}
+  - name: Football
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 522
+      y: 4
+      width: 506
+      height: 510
+    spriteID: de8b39c56265e4b88af59cfb2daa0c4b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 519, y: 4}
+  - name: BasketBall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 510
+      height: 510
+    spriteID: ae80cc06be75a42d8be81ee88711110a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Tablet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1036
+      y: 4
+      width: 512
+      height: 476
+    spriteID: 194b608dd6f844afab441fc64ba23e04
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1036, y: -14}
+  - name: fannypack2_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 501
+      y: 522
+      width: 484
+      height: 511
+    spriteID: ea09a04538b2e4408b501cc7485cb86c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 487, y: 521}
+  - name: fannypack2_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 993
+      y: 522
+      width: 484
+      height: 511
+    spriteID: 85c14534df6c94739851ce718bb20650
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 979, y: 521}
+  - name: fannypack2_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1485
+      y: 522
+      width: 484
+      height: 511
+    spriteID: e7b135ec3148d49fb867519a04bcc19f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1471, y: 521}
+  - name: fannypack2_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1977
+      y: 522
+      width: 484
+      height: 511
+    spriteID: e1d11a2e0c2c14ddda307a3a61e39d56
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1963, y: 521}
+  - name: fannypack2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2469
+      y: 522
+      width: 484
+      height: 511
+    spriteID: 8336c7d1077a44958862a9f5461f472d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2455, y: 521}
+  - name: fannypack2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2961
+      y: 522
+      width: 484
+      height: 511
+    spriteID: d9246e30ed0ec4ef6af8041885c7cfc8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2947, y: 521}
+  - name: fannypack2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3453
+      y: 522
+      width: 484
+      height: 511
+    spriteID: 2e1a2191cc2e34317a3cfa21a7d24ad5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3439, y: 521}
+  - name: business_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 4
+      width: 512
+      height: 458
+    spriteID: 14c24301ae2694d7c9208adab5032bc6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: -23}
+  - name: business_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 4
+      width: 512
+      height: 458
+    spriteID: f766fdf87ec8c4d1f924ad634a1f8b4b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2076, y: -23}
+  - name: business_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2596
+      y: 4
+      width: 512
+      height: 458
+    spriteID: 49ac386bb49034b29b854e6f4e523d5e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2596, y: -23}
+  - name: business_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3116
+      y: 4
+      width: 512
+      height: 458
+    spriteID: 54e402c7885e14a65854da8cc9c8d2d7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3116, y: -23}
+  - name: business_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1042
+      width: 512
+      height: 458
+    spriteID: 04c172133146b4ab88bc23411075c9ea
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1015}
+  - name: business_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 1042
+      width: 512
+      height: 458
+    spriteID: deaeec352627f4a21a75f067a43dff1e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 524, y: 1015}
+  - name: business_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1044
+      y: 1042
+      width: 512
+      height: 458
+    spriteID: ad245a17b4f424b54942f7ef3687d993
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1044, y: 1015}
+  - name: purse_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2872
+      y: 1508
+      width: 404
+      height: 512
+    spriteID: fee173b15ca1243f58d22092eeaf356f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2818, y: 1508}
+  - name: purse_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3284
+      y: 1508
+      width: 404
+      height: 512
+    spriteID: fb84e3f9b68ef4eed8857f29233fec43
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3230, y: 1508}
+  - name: purse_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2028
+      width: 404
+      height: 512
+    spriteID: 43d6022f6ee134197b5ca7446c51296d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -50, y: 2028}
+  - name: purse_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 2028
+      width: 404
+      height: 512
+    spriteID: 266f0e284c98746b5af659fdfb23ca6c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 362, y: 2028}
+  - name: purse_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 828
+      y: 2028
+      width: 404
+      height: 512
+    spriteID: 0fc0957a635d64bf59209f96c55bdd5a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 774, y: 2028}
+  - name: purse_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1240
+      y: 2028
+      width: 404
+      height: 512
+    spriteID: 5ce3c64f1831f43489a610981c4ad9df
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1186, y: 2028}
+  - name: purse_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1652
+      y: 2028
+      width: 404
+      height: 512
+    spriteID: dd25212436a1f4e048ef680737f0e256
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1598, y: 2028}
+  - name: fannypack_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2846
+      y: 2028
+      width: 510
+      height: 274
+    spriteID: 34569d66f8459421ebbf042573607f3e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2845, y: 1909}
+  - name: fannypack_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3364
+      y: 2028
+      width: 510
+      height: 274
+    spriteID: c9f656f74b03f448fb8cd50b8c0dec7b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3363, y: 1909}
+  - name: fannypack_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2548
+      width: 510
+      height: 274
+    spriteID: 1e9982aa2bc0a4d6fa165b1eeff9f088
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 2429}
+  - name: fannypack_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 522
+      y: 2548
+      width: 510
+      height: 274
+    spriteID: 6690e777767704987b753869c88bc96e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 521, y: 2429}
+  - name: fannypack_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1040
+      y: 2548
+      width: 510
+      height: 274
+    spriteID: d446ae6cf45394eba956f31efbf6bafc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1039, y: 2429}
+  - name: fannypack_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1558
+      y: 2548
+      width: 510
+      height: 274
+    spriteID: d69253deec8d44c8980639b0e7a47bc5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1557, y: 2429}
+  - name: fannypack_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2076
+      y: 2548
+      width: 511
+      height: 273
+    spriteID: b0a9d19e89ff047299db17020f0a2d22
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2076, y: 2429}
+  - name: backpack_black
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1564
+      y: 1042
+      width: 511
+      height: 427
+    spriteID: 0fc7052f332e04d27b26dcf300208a27
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1564, y: 1000}
+  - name: backpack_white
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2083
+      y: 1042
+      width: 511
+      height: 427
+    spriteID: ce9351addb56b4270aecd921d9c93ce3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2083, y: 1000}
+  - name: backpack_pink
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2602
+      y: 1042
+      width: 511
+      height: 427
+    spriteID: 0f3f284325d1f42a78eb775472dc2851
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2602, y: 1000}
+  - name: backpack_purple
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3121
+      y: 1042
+      width: 511
+      height: 427
+    spriteID: 1adb4e5e52d18484da72407739ce9937
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3121, y: 1000}
+  - name: backpack_orange
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 897
+      y: 1508
+      width: 511
+      height: 427
+    spriteID: c29039e4006974cfab9cb6f2023179b8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 897, y: 1466}
+  - name: backpack_red
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1416
+      y: 1508
+      width: 511
+      height: 427
+    spriteID: 72813b63f38a7499eb12f3a8c629d00f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1416, y: 1466}
+  - name: backpack_blue
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1935
+      y: 1508
+      width: 511
+      height: 427
+    spriteID: 9971f833b8c7b47439ac92b9da54ea3a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1935, y: 1466}
+  - name: gingerbread
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 706
+      y: 2830
+      width: 308
+      height: 336
+    spriteID: 2a8c96ecd451b7445be9f7ea4d32c3b2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 605, y: 2751}
+  - name: gift_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3696
+      y: 1508
+      width: 383
+      height: 410
+    spriteID: ef9628c758fb7154ab3d0d1e4755a2ba
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3621, y: 1466}
+  - name: gift_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2064
+      y: 2028
+      width: 383
+      height: 410
+    spriteID: f57e92b7d9e201849b75db2a255807b9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1989, y: 1986}
+  - name: gift_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2455
+      y: 2028
+      width: 383
+      height: 410
+    spriteID: 9c827e2c68eb7734490ab8f86a1c5ae4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2380, y: 1986}
+  - name: candy_cane
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3214
+      width: 313
+      height: 382
+    spriteID: b6e404b0fda1fb649934ad744f773b70
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -98, y: 3139}
+  - name: Daisy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3640
+      y: 1042
+      width: 425
+      height: 456
+    spriteID: 016bced1508b04a7fa78c0217026e630
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3578, y: 1009}
+  - name: Rose
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2830
+      width: 346
+      height: 376
+    spriteID: 062e9534d37694c82aad0fe0cf285fa9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -79, y: 2747}
+  - name: Chocolatebox
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 358
+      y: 2830
+      width: 340
+      height: 332
+    spriteID: e6d9ed7b1a4c946f8bd4fdcac55d916a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 273, y: 2748}
+  - name: KawaiiWings
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2595
+      y: 2548
+      width: 510
+      height: 233
+    spriteID: 75224578ba56340a0a145de3c8129a55
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2594, y: 2408}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 512, y: 512}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 4096
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: valentines
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 819
+    mosaicPosition: {x: 0, y: 0}
+  - name: Daisy
+    spriteName: Daisy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 016bced1508b04a7fa78c0217026e630
+    layerID: 818
+    mosaicPosition: {x: 3640, y: 1042}
+  - name: Rose
+    spriteName: Rose
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 062e9534d37694c82aad0fe0cf285fa9
+    layerID: 817
+    mosaicPosition: {x: 4, y: 2830}
+  - name: Chocolatebox
+    spriteName: Chocolatebox
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e6d9ed7b1a4c946f8bd4fdcac55d916a
+    layerID: 816
+    mosaicPosition: {x: 358, y: 2830}
+  - name: KawaiiWings
+    spriteName: KawaiiWings
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 75224578ba56340a0a145de3c8129a55
+    layerID: 815
+    mosaicPosition: {x: 2595, y: 2548}
+  - name: gingerbread
+    spriteName: gingerbread
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2a8c96ecd451b7445be9f7ea4d32c3b2
+    layerID: 813
+    mosaicPosition: {x: 706, y: 2830}
+  - name: gift_1
+    spriteName: gift_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ef9628c758fb7154ab3d0d1e4755a2ba
+    layerID: 812
+    mosaicPosition: {x: 3696, y: 1508}
+  - name: gift_2
+    spriteName: gift_2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f57e92b7d9e201849b75db2a255807b9
+    layerID: 811
+    mosaicPosition: {x: 2064, y: 2028}
+  - name: gift_3
+    spriteName: gift_3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9c827e2c68eb7734490ab8f86a1c5ae4
+    layerID: 810
+    mosaicPosition: {x: 2455, y: 2028}
+  - name: candy_cane
+    spriteName: candy_cane
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b6e404b0fda1fb649934ad744f773b70
+    layerID: 809
+    mosaicPosition: {x: 4, y: 3214}
+  - name: Laptop
+    spriteName: Laptop
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 80815e9ac7900456ca3bd1187864e914
+    layerID: 808
+    mosaicPosition: {x: 4, y: 522}
+  - name: Mug
+    spriteName: Mug
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 187f7f05f9255402c9992683bbfd1ae7
+    layerID: 807
+    mosaicPosition: {x: 3636, y: 4}
+  - name: Thermos
+    spriteName: Thermos
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9c5047ce821714b5087dfa5ec878eb25
+    layerID: 806
+    mosaicPosition: {x: 4, y: 1508}
+  - name: Bouquet
+    spriteName: Bouquet
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8658b23fa38f44a82af24c9139548d80
+    layerID: 805
+    mosaicPosition: {x: 2454, y: 1508}
+  - name: TeddyBear
+    spriteName: TeddyBear
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 15a55bdf0c5fd47109b75b2e10261afa
+    layerID: 804
+    mosaicPosition: {x: 457, y: 1508}
+  - name: Football
+    spriteName: Football
+    isGroup: 0
+    parentIndex: -1
+    spriteID: de8b39c56265e4b88af59cfb2daa0c4b
+    layerID: 803
+    mosaicPosition: {x: 522, y: 4}
+  - name: BasketBall
+    spriteName: BasketBall
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ae80cc06be75a42d8be81ee88711110a
+    layerID: 802
+    mosaicPosition: {x: 4, y: 4}
+  - name: Tablet
+    spriteName: Tablet
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 194b608dd6f844afab441fc64ba23e04
+    layerID: 801
+    mosaicPosition: {x: 1036, y: 4}
+  - name: accesories
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 153
+    mosaicPosition: {x: 0, y: 0}
+  - name: fannypack2_7
+    spriteName: fannypack2_7
+    isGroup: 0
+    parentIndex: 18
+    spriteID: ea09a04538b2e4408b501cc7485cb86c
+    layerID: 187
+    mosaicPosition: {x: 501, y: 522}
+  - name: fannypack2_6
+    spriteName: fannypack2_6
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 85c14534df6c94739851ce718bb20650
+    layerID: 186
+    mosaicPosition: {x: 993, y: 522}
+  - name: fannypack2_5
+    spriteName: fannypack2_5
+    isGroup: 0
+    parentIndex: 18
+    spriteID: e7b135ec3148d49fb867519a04bcc19f
+    layerID: 185
+    mosaicPosition: {x: 1485, y: 522}
+  - name: fannypack2_4
+    spriteName: fannypack2_4
+    isGroup: 0
+    parentIndex: 18
+    spriteID: e1d11a2e0c2c14ddda307a3a61e39d56
+    layerID: 184
+    mosaicPosition: {x: 1977, y: 522}
+  - name: fannypack2_3
+    spriteName: fannypack2_3
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 8336c7d1077a44958862a9f5461f472d
+    layerID: 183
+    mosaicPosition: {x: 2469, y: 522}
+  - name: fannypack2_2
+    spriteName: fannypack2_2
+    isGroup: 0
+    parentIndex: 18
+    spriteID: d9246e30ed0ec4ef6af8041885c7cfc8
+    layerID: 182
+    mosaicPosition: {x: 2961, y: 522}
+  - name: fannypack2_1
+    spriteName: fannypack2_1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 2e1a2191cc2e34317a3cfa21a7d24ad5
+    layerID: 181
+    mosaicPosition: {x: 3453, y: 522}
+  - name: business_7
+    spriteName: business_7
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 14c24301ae2694d7c9208adab5032bc6
+    layerID: 180
+    mosaicPosition: {x: 1556, y: 4}
+  - name: business_6
+    spriteName: business_6
+    isGroup: 0
+    parentIndex: 18
+    spriteID: f766fdf87ec8c4d1f924ad634a1f8b4b
+    layerID: 179
+    mosaicPosition: {x: 2076, y: 4}
+  - name: business_5
+    spriteName: business_5
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 49ac386bb49034b29b854e6f4e523d5e
+    layerID: 178
+    mosaicPosition: {x: 2596, y: 4}
+  - name: business_4
+    spriteName: business_4
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 54e402c7885e14a65854da8cc9c8d2d7
+    layerID: 177
+    mosaicPosition: {x: 3116, y: 4}
+  - name: business_3
+    spriteName: business_3
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 04c172133146b4ab88bc23411075c9ea
+    layerID: 176
+    mosaicPosition: {x: 4, y: 1042}
+  - name: business_2
+    spriteName: business_2
+    isGroup: 0
+    parentIndex: 18
+    spriteID: deaeec352627f4a21a75f067a43dff1e
+    layerID: 175
+    mosaicPosition: {x: 524, y: 1042}
+  - name: business_1
+    spriteName: business_1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: ad245a17b4f424b54942f7ef3687d993
+    layerID: 174
+    mosaicPosition: {x: 1044, y: 1042}
+  - name: purse_7
+    spriteName: purse_7
+    isGroup: 0
+    parentIndex: 18
+    spriteID: fee173b15ca1243f58d22092eeaf356f
+    layerID: 173
+    mosaicPosition: {x: 2872, y: 1508}
+  - name: purse_6
+    spriteName: purse_6
+    isGroup: 0
+    parentIndex: 18
+    spriteID: fb84e3f9b68ef4eed8857f29233fec43
+    layerID: 172
+    mosaicPosition: {x: 3284, y: 1508}
+  - name: purse_5
+    spriteName: purse_5
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 43d6022f6ee134197b5ca7446c51296d
+    layerID: 171
+    mosaicPosition: {x: 4, y: 2028}
+  - name: purse_4
+    spriteName: purse_4
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 266f0e284c98746b5af659fdfb23ca6c
+    layerID: 170
+    mosaicPosition: {x: 416, y: 2028}
+  - name: purse_3
+    spriteName: purse_3
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 0fc0957a635d64bf59209f96c55bdd5a
+    layerID: 169
+    mosaicPosition: {x: 828, y: 2028}
+  - name: purse_2
+    spriteName: purse_2
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 5ce3c64f1831f43489a610981c4ad9df
+    layerID: 168
+    mosaicPosition: {x: 1240, y: 2028}
+  - name: purse_1
+    spriteName: purse_1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: dd25212436a1f4e048ef680737f0e256
+    layerID: 167
+    mosaicPosition: {x: 1652, y: 2028}
+  - name: fannypack_7
+    spriteName: fannypack_7
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 34569d66f8459421ebbf042573607f3e
+    layerID: 166
+    mosaicPosition: {x: 2846, y: 2028}
+  - name: fannypack_6
+    spriteName: fannypack_6
+    isGroup: 0
+    parentIndex: 18
+    spriteID: c9f656f74b03f448fb8cd50b8c0dec7b
+    layerID: 165
+    mosaicPosition: {x: 3364, y: 2028}
+  - name: fannypack_5
+    spriteName: fannypack_5
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 1e9982aa2bc0a4d6fa165b1eeff9f088
+    layerID: 164
+    mosaicPosition: {x: 4, y: 2548}
+  - name: fannypack_4
+    spriteName: fannypack_4
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 6690e777767704987b753869c88bc96e
+    layerID: 163
+    mosaicPosition: {x: 522, y: 2548}
+  - name: fannypack_3
+    spriteName: fannypack_3
+    isGroup: 0
+    parentIndex: 18
+    spriteID: d446ae6cf45394eba956f31efbf6bafc
+    layerID: 162
+    mosaicPosition: {x: 1040, y: 2548}
+  - name: fannypack_2
+    spriteName: fannypack_2
+    isGroup: 0
+    parentIndex: 18
+    spriteID: d69253deec8d44c8980639b0e7a47bc5
+    layerID: 161
+    mosaicPosition: {x: 1558, y: 2548}
+  - name: fannypack_1
+    spriteName: fannypack_1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: b0a9d19e89ff047299db17020f0a2d22
+    layerID: 160
+    mosaicPosition: {x: 2076, y: 2548}
+  - name: backpack_black
+    spriteName: backpack_black
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 0fc7052f332e04d27b26dcf300208a27
+    layerID: 159
+    mosaicPosition: {x: 1564, y: 1042}
+  - name: backpack_white
+    spriteName: backpack_white
+    isGroup: 0
+    parentIndex: 18
+    spriteID: ce9351addb56b4270aecd921d9c93ce3
+    layerID: 158
+    mosaicPosition: {x: 2083, y: 1042}
+  - name: backpack_pink
+    spriteName: backpack_pink
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 0f3f284325d1f42a78eb775472dc2851
+    layerID: 157
+    mosaicPosition: {x: 2602, y: 1042}
+  - name: backpack_purple
+    spriteName: backpack_purple
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 1adb4e5e52d18484da72407739ce9937
+    layerID: 156
+    mosaicPosition: {x: 3121, y: 1042}
+  - name: backpack_orange
+    spriteName: backpack_orange
+    isGroup: 0
+    parentIndex: 18
+    spriteID: c29039e4006974cfab9cb6f2023179b8
+    layerID: 155
+    mosaicPosition: {x: 897, y: 1508}
+  - name: backpack_red
+    spriteName: backpack_red
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 72813b63f38a7499eb12f3a8c629d00f
+    layerID: 3
+    mosaicPosition: {x: 1416, y: 1508}
+  - name: backpack_blue
+    spriteName: backpack_blue
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 9971f833b8c7b47439ac92b9da54ea3a
+    layerID: 2
+    mosaicPosition: {x: 1935, y: 1508}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Accesories_UI Texture
+  prefabAssetName: Accesories_UI Prefab
+  spriteLibAssetName: Accesories_UI Sprite Lib
+  secondarySpriteTextures: []

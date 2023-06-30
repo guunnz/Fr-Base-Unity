@@ -1,0 +1,1459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8040035876170455201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: RoomTransition
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1832, y: 296}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -8040035876170455201}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 2
+        node: {fileID: -6792956981839346377}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -8040035876170455201}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -8040035876170455201}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -6792956981839346377}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back
+  prefab: {fileID: 7754094661957272281, guid: 76bf9ec2d83d1d54d83ba2ba4643523d, type: 3}
+--- !u!114 &-6792956981839346377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: WorldGame
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1528, y: -24}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    - outputs 2
+    values:
+    - _fieldName: input
+      _node: {fileID: -6792956981839346377}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 0
+        node: {fileID: -1841272270142886436}
+        reroutePoints: []
+      - fieldName: outputs 4
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      - fieldName: outputs 3
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -8040035876170455201}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -6792956981839346377}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -6792956981839346377}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -6792956981839346377}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -1841272270142886436}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 2
+      _node: {fileID: -6792956981839346377}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -8040035876170455201}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - menu
+  - customization
+  - roomtransition
+  prefab: {fileID: 4541423311818097473, guid: fd23c4d735196fd41bc3865aeb700cd9, type: 3}
+--- !u!114 &-6573712721684345943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: TermsView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 136, y: 344}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -6573712721684345943}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 1
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -6573712721684345943}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -6573712721684345943}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - next-view
+  prefab: {fileID: -4074540658197247947, guid: d256aeca21ab6794e83d0a763c89aa80, type: 3}
+--- !u!114 &-4839116044423929845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: LandingView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -904, y: -456}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    values:
+    - _fieldName: input
+      _node: {fileID: -4839116044423929845}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 0
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -375154872587581056}
+        reroutePoints: []
+      - fieldName: outputs 1
+        node: {fileID: -3395321255351019912}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      - fieldName: outputs 2
+        node: {fileID: -375154872587581056}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -4839116044423929845}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -4839116044423929845}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -4839116044423929845}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - email
+  - end-auth
+  prefab: {fileID: 8708774780808170252, guid: b7dc2d08ea7bc7f4a861f94877224580, type: 3}
+--- !u!114 &-3395321255351019912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: VerifyEmailView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -200, y: 344}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    values:
+    - _fieldName: input
+      _node: {fileID: -3395321255351019912}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 4
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -3395321255351019912}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -3395321255351019912}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -3395321255351019912}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back
+  - continue
+  prefab: {fileID: 6070369850739798624, guid: c0d1a1c26397e5e49968c0c642e29fc3, type: 3}
+--- !u!114 &-2808850113484475656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: SetNewPassView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1000, y: -136}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -2808850113484475656}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -2808850113484475656}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -2808850113484475656}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - next-view
+  prefab: {fileID: 8287587779950677089, guid: bf8c4ef48304c5143893beffb938ba35, type: 3}
+--- !u!114 &-2419575467684703753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: LoginView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: -584}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    - outputs 2
+    values:
+    - _fieldName: input
+      _node: {fileID: -2419575467684703753}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 1
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: 250904987921506708}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -2419575467684703753}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -2419575467684703753}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -2419575467684703753}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 2
+      _node: {fileID: -2419575467684703753}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 250904987921506708}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back-view
+  - end-auth
+  - forgot-pass
+  prefab: {fileID: 7383496031346255003, guid: 0a49e9daafd637041a51d8f27f7af957, type: 3}
+--- !u!114 &-2112646071480908867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: SettingsView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1048, y: -456}
+  ports:
+    keys:
+    - input
+    - outputs
+    values:
+    - _fieldName: input
+      _node: {fileID: -2112646071480908867}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 0
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -2112646071480908867}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  input: 
+  outputs: []
+  prefab: {fileID: 2198884911835174066, guid: 1484e47c40a580445a3f4193cc016b45, type: 3}
+--- !u!114 &-1841272270142886436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: AvatarCustomizationPanel
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1512, y: 296}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -1841272270142886436}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 2
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      - fieldName: outputs 1
+        node: {fileID: -6792956981839346377}
+        reroutePoints: []
+      - fieldName: outputs 2
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      - fieldName: outputs 5
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -1841272270142886436}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -1841272270142886436}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -6792956981839346377}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back
+  prefab: {fileID: 5012400396030789548, guid: f02e0f65e30114d2aa86dc0c4fa63081, type: 3}
+--- !u!114 &-891727636929178260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: SignUpView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: -888}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    values:
+    - _fieldName: input
+      _node: {fileID: -891727636929178260}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 2
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -891727636929178260}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -891727636929178260}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -891727636929178260}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back-view
+  - next-view
+  prefab: {fileID: 3505335285745549028, guid: bb2cf50622f054c64985a5da2868d70a, type: 3}
+--- !u!114 &-513724713793670659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: AboutYouView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 424, y: 312}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    values:
+    - _fieldName: input
+      _node: {fileID: -513724713793670659}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 2
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -513724713793670659}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -513724713793670659}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -513724713793670659}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - next-view
+  - back
+  prefab: {fileID: 5941929551498114124, guid: 2eb91267b500448439d93cc7a7c9151f, type: 3}
+--- !u!114 &-375154872587581056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: DeepLinkHandlerView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1304, y: -424}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    - outputs 2
+    values:
+    - _fieldName: input
+      _node: {fileID: -375154872587581056}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 0
+        node: {fileID: 3427233340262212102}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: -375154872587581056}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: -375154872587581056}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -4839116044423929845}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: -375154872587581056}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 9100858538382483974}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 2
+      _node: {fileID: -375154872587581056}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -4839116044423929845}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - start
+  - email_view
+  - set_pass
+  prefab: {fileID: 2227033071312002598, guid: fe83ceb88c64e5d4cb656395d423cd35, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115aae4291bacd64785bea3daa5281d3, type: 3}
+  m_Name: Test Views Navigation
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6792956981839346377}
+  - {fileID: -2112646071480908867}
+  - {fileID: 7919543182064534572}
+  - {fileID: 3427233340262212102}
+  - {fileID: -4839116044423929845}
+  - {fileID: 9100858538382483974}
+  - {fileID: -375154872587581056}
+  - {fileID: -2419575467684703753}
+  - {fileID: -891727636929178260}
+  - {fileID: -6573712721684345943}
+  - {fileID: -513724713793670659}
+  - {fileID: 6878026567318275157}
+  - {fileID: 250904987921506708}
+  - {fileID: 1028606316328522722}
+  - {fileID: -2808850113484475656}
+  - {fileID: -3395321255351019912}
+  - {fileID: -1841272270142886436}
+  - {fileID: 4638743694766037565}
+  - {fileID: -8040035876170455201}
+  views:
+  - {fileID: 312513363258429470, guid: 4b38e36b3b1670d46b219c4ff8b41ff1, type: 3}
+  - {fileID: 2198884911835174066, guid: 1484e47c40a580445a3f4193cc016b45, type: 3}
+  - {fileID: 3073325817807069596, guid: 1d72b6d3b3eda934eb0e98de43e27640, type: 3}
+  - {fileID: 8708774780808170252, guid: b7dc2d08ea7bc7f4a861f94877224580, type: 3}
+  - {fileID: 2227033071312002598, guid: fe83ceb88c64e5d4cb656395d423cd35, type: 3}
+  - {fileID: -1805765772506098596, guid: 638a1cab0c2eae34a904c0ec30105ac4, type: 3}
+  - {fileID: 7383496031346255003, guid: 0a49e9daafd637041a51d8f27f7af957, type: 3}
+  - {fileID: 3505335285745549028, guid: bb2cf50622f054c64985a5da2868d70a, type: 3}
+  - {fileID: -4074540658197247947, guid: d256aeca21ab6794e83d0a763c89aa80, type: 3}
+  - {fileID: 1288370864462748898, guid: 61ee252b61926ee4fa1f2dd32e604589, type: 3}
+  - {fileID: 5941929551498114124, guid: 2eb91267b500448439d93cc7a7c9151f, type: 3}
+  - {fileID: 4031093292243194538, guid: 4841db93483d17e4696400b9be03134c, type: 3}
+  - {fileID: 428913063819445660, guid: 252ea786b648a6142ae6ff0fa094bcbf, type: 3}
+  - {fileID: 8287587779950677089, guid: bf8c4ef48304c5143893beffb938ba35, type: 3}
+  - {fileID: 6070369850739798624, guid: c0d1a1c26397e5e49968c0c642e29fc3, type: 3}
+  - {fileID: 4541423311818097473, guid: fd23c4d735196fd41bc3865aeb700cd9, type: 3}
+  - {fileID: 6245198218379230424, guid: 5fc71e1a4cc26b74483e40f92433bbe5, type: 3}
+  - {fileID: 5012400396030789548, guid: f02e0f65e30114d2aa86dc0c4fa63081, type: 3}
+  - {fileID: 7754094661957272281, guid: 76bf9ec2d83d1d54d83ba2ba4643523d, type: 3}
+  popups:
+  - {fileID: 6287005557969512234, guid: 8cc65678896c0d74a8f9804674080b4e, type: 3}
+--- !u!114 &250904987921506708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: ForgotPassView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -344, y: -248}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 250904987921506708}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 2
+        node: {fileID: -2419575467684703753}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: 250904987921506708}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: 250904987921506708}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -2419575467684703753}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back
+  prefab: {fileID: 4031093292243194538, guid: 4841db93483d17e4696400b9be03134c, type: 3}
+--- !u!114 &1028606316328522722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: ExampleView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1256, y: 184}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 1028606316328522722}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: 1028606316328522722}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: 1028606316328522722}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back
+  prefab: {fileID: 428913063819445660, guid: 252ea786b648a6142ae6ff0fa094bcbf, type: 3}
+--- !u!114 &3427233340262212102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: LoadingScreenView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1592, y: -408}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 3427233340262212102}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: 3427233340262212102}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: 3427233340262212102}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -375154872587581056}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - start
+  prefab: {fileID: 3073325817807069596, guid: 1d72b6d3b3eda934eb0e98de43e27640, type: 3}
+--- !u!114 &4638743694766037565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: AuthFlowView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1016, y: -232}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 4638743694766037565}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: 4638743694766037565}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: 4638743694766037565}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - main-menu
+  prefab: {fileID: 6245198218379230424, guid: 5fc71e1a4cc26b74483e40f92433bbe5, type: 3}
+--- !u!114 &6878026567318275157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: EndAuthView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -56}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    - outputs 2
+    - outputs 3
+    - outputs 4
+    - outputs 5
+    values:
+    - _fieldName: input
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 1
+        node: {fileID: -4839116044423929845}
+        reroutePoints: []
+      - fieldName: outputs 1
+        node: {fileID: -2419575467684703753}
+        reroutePoints: []
+      - fieldName: outputs 1
+        node: {fileID: -891727636929178260}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -2808850113484475656}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -6573712721684345943}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -513724713793670659}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -513724713793670659}
+        reroutePoints: []
+      - fieldName: outputs 1
+        node: {fileID: -3395321255351019912}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -4839116044423929845}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -6573712721684345943}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 2
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -513724713793670659}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 3
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 7919543182064534572}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 4
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -3395321255351019912}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 5
+      _node: {fileID: 6878026567318275157}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -1841272270142886436}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - landing-view
+  - terms
+  - about-you
+  - auth-complete
+  - verify-email
+  - avatar-customization
+  prefab: {fileID: 1288370864462748898, guid: 61ee252b61926ee4fa1f2dd32e604589, type: 3}
+--- !u!114 &7919543182064534572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: MainMenuView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 696, y: -8}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    - outputs 2
+    - outputs 3
+    values:
+    - _fieldName: input
+      _node: {fileID: 7919543182064534572}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 0
+        node: {fileID: -6792956981839346377}
+        reroutePoints: []
+      - fieldName: outputs 3
+        node: {fileID: 6878026567318275157}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: 4638743694766037565}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: 7919543182064534572}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: 7919543182064534572}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -2112646071480908867}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: 7919543182064534572}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 2
+      _node: {fileID: 7919543182064534572}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -1841272270142886436}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 3
+      _node: {fileID: 7919543182064534572}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -6792956981839346377}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - settings
+  - game
+  - avatar-customization
+  - quick-play
+  prefab: {fileID: 312513363258429470, guid: 4b38e36b3b1670d46b219c4ff8b41ff1, type: 3}
+--- !u!114 &9100858538382483974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf72a71133b4474998def6691396305, type: 3}
+  m_Name: EnterEmailView
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -664, y: -584}
+  ports:
+    keys:
+    - input
+    - outputs
+    - outputs 0
+    - outputs 1
+    - outputs 2
+    values:
+    - _fieldName: input
+      _node: {fileID: 9100858538382483974}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: outputs 0
+        node: {fileID: -4839116044423929845}
+        reroutePoints: []
+      - fieldName: outputs 1
+        node: {fileID: -375154872587581056}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -2419575467684703753}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -891727636929178260}
+        reroutePoints: []
+      - fieldName: outputs 0
+        node: {fileID: -3395321255351019912}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs
+      _node: {fileID: 9100858538382483974}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputs 0
+      _node: {fileID: 9100858538382483974}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -4839116044423929845}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 1
+      _node: {fileID: 9100858538382483974}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -2419575467684703753}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: outputs 2
+      _node: {fileID: 9100858538382483974}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -891727636929178260}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: 
+  outputs:
+  - back-view
+  - log-in
+  - sign-up
+  prefab: {fileID: -1805765772506098596, guid: 638a1cab0c2eae34a904c0ec30105ac4, type: 3}

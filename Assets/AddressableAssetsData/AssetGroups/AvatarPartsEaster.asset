@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AvatarPartsEaster
+  m_EditorClassIdentifier: 
+  m_GroupName: AvatarPartsEaster
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b282db3e451f241699a7e8efd97edf23
+  m_SerializeEntries:
+  - m_GUID: c8a2abf62f7544dbf97b64a300e43d4d
+    m_Address: Avatar_Easter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6e73d356bb0e48358b8ab376476b70b
+    m_Address: Avatar_Easter_UI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 44d714fc1267d440b9e7851ba39a25fb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b1b11a68c4bb04f7e8e603fd3c8f952c, type: 2}
+    - {fileID: 11400000, guid: 7631c9c9101354fac8151567564413e6, type: 2}

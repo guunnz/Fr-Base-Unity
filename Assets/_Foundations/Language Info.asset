@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d64cf025ea9442f8d18fd623f657061, type: 3}
+  m_Name: Language Info
+  m_EditorClassIdentifier: 
+  defaultValue:
+    key: en
+    sprite: {fileID: 21300000, guid: 359e7a28b62c3884985743507ca4c2dd, type: 3}
+    labelName: English
+  info:
+  - key: en
+    sprite: {fileID: 21300000, guid: 359e7a28b62c3884985743507ca4c2dd, type: 3}
+    labelName: EN - English
+  - key: es
+    sprite: {fileID: 21300000, guid: 2a4235b103cab4344b21331059f8f331, type: 3}
+    labelName: "ES - Espa\xF1ol"
